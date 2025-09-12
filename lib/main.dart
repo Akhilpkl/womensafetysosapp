@@ -26,7 +26,7 @@ class SafetyApp extends StatelessWidget {
             );
           }
           if (snapshot.hasData) {
-            return const HomePage(); // ✅ User logged in
+            return const HomePage();
           } else {
             return const LoginPage();
           }

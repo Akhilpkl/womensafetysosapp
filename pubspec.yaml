@@ -36,15 +36,15 @@ dependencies:
   flutter_contacts: ^1.1.9+2
   permission_handler: ^11.2.0
   telephony: ^0.2.0
+
   # Location & SOS
   geolocator: ^10.1.0   # ✅ Use stable version (14.x is not yet supported in Flutter stable)
   url_launcher: ^6.1.10
-  shared_preferences: ^2.1.1
-
+  shared_preferences: ^2.0.15
 
   # Firebase
-  firebase_core: ^2.31.0
-  firebase_auth: ^4.19.0
+  firebase_core: ^2.27.0 
+  firebase_auth: ^4.17.8
 
 
   # The following adds the Cupertino Icons font to your application.
